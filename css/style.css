@@ -1,0 +1,89 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: bisque;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
+}
+
+.start-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 15px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
+}
+
+.store-img {
+  height: 400px;
+  width: 400px;
+  border-radius: 30%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 30%;
+}
+
+.electric-guitars-div {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.acoustic-guitars-div {
+  background-color: white;
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
+  display: flex;
+  gap: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.electric-guitars {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.acoustic-guitars {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
