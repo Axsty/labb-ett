@@ -78,12 +78,35 @@ img {
 }
 
 .electric-guitars {
-    padding-left: 30px;
-    padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .acoustic-guitars {
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+
+.store-video {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 15px;
 }
