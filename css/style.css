@@ -47,12 +47,14 @@ footer {
   height: 400px;
   width: 400px;
   border-radius: 30%;
+  flex-wrap: wrap;
 }
 
 img {
   height: 200px;
   width: 200px;
   border-radius: 30%;
+  flex-wrap: wrap;
 }
 
 .electric-guitars-div {
@@ -102,6 +104,30 @@ img {
 }
 
 .about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom: 15px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  font-family: "Poppins" sans-serif;
+}
+
+.privacy-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
