@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-  background-color: bisque;
+  background-color: #ffe4c4;
   border: 2px solid black;
   padding: 10px;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
@@ -125,4 +125,12 @@ img {
   padding-left: 15%;
   padding-right: 15%;
   margin-bottom: 15px;
+}
+
+a {
+  color: black;
+}
+
+a:hover, a:focus  {
+  color: red;
 }
