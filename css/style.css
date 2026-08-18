@@ -58,11 +58,10 @@ img {
   flex-wrap: wrap;
 }
 
-.electric-guitars-div, .acoustic-guitars-div {
+.electric-guitars-div,
+.acoustic-guitars-div {
   background-color: white;
-  border: 2px solid black;
   padding: 10px;
-  box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
   display: flex;
   flex-wrap: wrap;
   gap: 150px;
@@ -71,14 +70,18 @@ img {
 }
 
 .electric-guitars {
+  padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: center;
 }
 
 .acoustic-guitars {
+  padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .store-video {
@@ -131,6 +134,13 @@ a {
   color: black;
 }
 
-a:hover, a:focus  {
+a:hover,
+a:focus {
   color: red;
+}
+
+.product-card {
+  border: 2px solid black;
+  padding: 10px;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
 }
