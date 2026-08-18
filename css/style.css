@@ -22,7 +22,8 @@ nav {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 1);
 }
 
-.start-main {
+.start-main,
+.under-construction {
   display: flex;
   flex-direction: column;
   justify-content: center;
