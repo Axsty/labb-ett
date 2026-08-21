@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <script src="js/app.js" defer></script>
   </head>
   <body>
     <header>
@@ -21,47 +22,130 @@
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="privacy.html">Privacy</a>
+        <button id="cartToggle">Cart</button>
       </nav>
     </header>
     <main>
+      <section class="shopping-cart">
+        <h1>Cart</h1>
+        <div class="shopping-cart-build"></div>
+      </section>
       <section class="electric-guitars">
         <h3>Electric guitars</h3>
         <div class="electric-guitars-div">
           <div>
             <article>Fender Stratocaster</article>
+            <span class="product-badge"
+              ><img src="img/crown.png" alt="bestseller icon"
+            /></span>
             <img src="img/strata.jpg" alt="fender stratocaster" />
-            <p>Price - 14999kr <button>Buy</button></p>
+            <p>
+              <span class="productPrice" data-price="14999"
+                >Price - 14999kr</span
+              >
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+                data-name="Fender Stratocaster"
+              />
+              <button class="buyButton" data-name="Fender Stratocaster">
+                Buy
+              </button>
+            </p>
           </div>
           <div>
             <article>Fender Telecaster</article>
-            <img src="img/tele.jpg" alt="fender telecaster">
-            <p>Price - 12599kr <button>Buy</button></p>
+            <img src="img/tele.jpg" alt="fender telecaster" />
+            <p>
+              <span class="productPrice" data-price="12599"
+                >Price - 12599kr</span
+              >
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+                data-name="Fender Telecaster"
+              />
+              <button class="buyButton" data-name="Fender Telecaster">
+                Buy
+              </button>
+            </p>
           </div>
           <div>
-          <article>Gibson Les Paul</article>
-          <img src="img/gibson.jpg" alt="gibson les paul">
-          <p>Price - 24550kr <button>Buy</button></p>
+            <article>Gibson Les Paul</article>
+            <img src="img/gibson.jpg" alt="gibson les paul" />
+            <p>
+              <span class="productPrice" data-price="24550"
+                >Price - 24550kr</span
+              >
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+                data-name="Gibson Les Paul"
+              />
+              <button class="buyButton" data-name="Gibson Les Paul">Buy</button>
+            </p>
           </div>
         </div>
       </section>
       <section class="acoustic-guitars">
         <h3>Acoustic guitars</h3>
         <div class="acoustic-guitars-div">
-            <div>
-                <article>Taylor 414ce</article>
-                <img src="img/taylor.jpg" alt="taylor acoustic guitar">
-                <p>Price - 8999kr <button>Buy</button></p>
-            </div>
-            <div>
-                <article>Martin D-35e</article>
-                <img src="img/martin.jpg" alt="martin acoustic guitar">
-                <p>Price - 35000kr <button>Buy</button></p>
-            </div>
-            <div>
-                <article>Cort AF510</article>
-                <img src="img/cort.jpg" alt="cort acoustic guitar">
-                <p>Price - 1399kr <button>Buy</button></p>
-            </div>
+          <div>
+            <article>Taylor 414ce</article>
+            <img src="img/taylor.jpg" alt="taylor acoustic guitar" />
+            <p>
+              <span class="productPrice" data-price="8999">Price - 8999kr</span>
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+                data-name="Taylor 414ce"
+              />
+              <button class="buyButton" data-name="Taylor 414ce">Buy</button>
+            </p>
+          </div>
+          <div>
+            <article>Martin D-35e</article>
+            <span class="product-badge"
+              ><img src="img/crown.png" alt="bestseller icon"
+            /></span>
+            <img src="img/martin.jpg" alt="martin acoustic guitar" />
+            <p>
+              <span class="productPrice" data-price="35000"
+                >Price - 35000kr</span
+              >
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+                data-name="Martin D-35e"
+              />
+              <button class="buyButton" data-name="Martin D-35e">Buy</button>
+            </p>
+          </div>
+          <div>
+            <article>Cort AF510</article>
+            <img src="img/cort.jpg" alt="cort acoustic guitar" />
+            <p>
+              <span class="productPrice" data-price="1399">Price - 1399kr</span>
+              <input
+                type="number"
+                class="quantity"
+                min="1"
+                value="1"
+                data-name="Cort AF510"
+              />
+              <button class="buyButton" data-name="Cort AF510">Buy</button>
+            </p>
+          </div>
         </div>
       </section>
     </main>
